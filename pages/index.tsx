@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Grid, Heading, Image, Text } from "@chakra-ui/core";
+import { Box, Button, Flex, Grid, Heading, Image, Link, Text } from "@chakra-ui/core";
 
 export default function Home() {
   return (
@@ -34,7 +34,7 @@ export default function Home() {
             height="2rem"
             backgroundColor="teal.300"
           >
-            Sign In
+            <Link href="/signup" >Sign Up</Link>
           </Button>
         </Flex>
         <Flex gridArea="body" alignItems="center" justifyContent="center">
